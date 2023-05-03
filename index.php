@@ -16,9 +16,7 @@
 
 <body>
 
-  <!-- Esempio con form -->
-
-  <div class="container d-flex justify-content-center">
+  <div class="container d-flex justify-content-center mt-5">
     <div class="card rounded-0 shadow col-10">
 
       <div class="card-body">
@@ -29,7 +27,7 @@
           </div>
           <div class="mb-3">
             <label for="badword">Bad Word</label>
-            <input type="text" name="badword" id="lastname" class="form-control" placeholder="placeholder" aria-describedby="suffixId">
+            <input type="text" name="badword" id="badword" class="form-control" placeholder="placeholder" aria-describedby="suffixId">
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
